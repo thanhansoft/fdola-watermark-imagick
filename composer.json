@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Fdola\\": "src/Fdola/"
+            "Fdola\\": "src/"
         }
     },
 	"minimum-stability": "dev",
