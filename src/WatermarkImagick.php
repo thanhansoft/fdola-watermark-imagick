@@ -102,12 +102,10 @@ class WatermarkImagick
 
         $draw->setGravity($this->Position($position));
 
-        $image->annotateImage($draw, 10, 12 + 20, 0, $text);
-        $image->annotateImage($draw, 10, 12, 0, '@Copyright 2020');
+        $image->annotateImage($draw, 10, 12, 0, $text);
 
         $draw->setFillColor('white');
-        $image->annotateImage($draw, 11, 11 + 20, 0, $text);
-        $image->annotateImage($draw, 11, 11, 0, '@Copyright 2020');
+        $image->annotateImage($draw, 11, 11, 0, $text);
 
         $image->writeImage($to);
     }
