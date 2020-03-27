@@ -42,6 +42,9 @@ class WatermarkImagick
             $y = ($img_Height - $watermark_Height) / 2;
         } else {
             $watermarkResizeFactor = 1;
+			if($img_Width <= 200) $watermarkResizeFactor = 3;
+			else if($img_Width > 200 && $img_Width <= 400) $watermarkResizeFactor = 2;
+			
             // Resize the watermark with the resize factor value
             $watermark->scaleImage($watermark_Width / $watermarkResizeFactor, $watermark_Height / $watermarkResizeFactor);
 
