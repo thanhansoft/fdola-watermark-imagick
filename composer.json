@@ -1,0 +1,25 @@
+{
+    "name": "thanhansoft/fdola-watermark-imagick",
+    "description": "php imagick watermark image and text",
+    "type": "library",
+	"keywords": ["php watermark", "php imagick watermark", "fdola watermark"],
+	"homepage": "https://github.com/thanhansoft/fdola-watermark-imagick",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "thanhansoft",
+            "email": "thanhansoft@gmail.com",
+			"homepage": "https://anhlinh.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fdola\\WatermarkImagick\\": "src/WatermarkImagick/"
+        }
+    },
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
