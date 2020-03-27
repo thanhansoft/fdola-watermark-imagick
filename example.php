@@ -9,4 +9,4 @@ $model->image(__DIR__.'/test.jpg', __DIR__.'/result.jpg', __DIR__.'/logo.png', '
 
 ?>
 
-<img src="result.jpg"/>
+<img alt="" src="result.jpg"/>
