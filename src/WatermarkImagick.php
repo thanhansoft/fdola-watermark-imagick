@@ -99,7 +99,7 @@ class WatermarkImagick
         $image = new \Imagick($from);
         $draw = new \ImagickDraw();
 
-        $draw->setFont('Arial');
+        $draw->setFont(__DIR__.'/Arial.ttf');
         $draw->setFontSize(15);
         $draw->setFillColor('black');
 
